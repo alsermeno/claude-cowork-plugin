@@ -2,3 +2,6 @@
 .env
 .env.local
 node_modules/
+
+# Stale local copy of the plugin at 1.0.0 (the published plugin is smartlink-basics/)
+smartlink-basics-v2/
