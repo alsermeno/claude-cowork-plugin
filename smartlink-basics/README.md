@@ -50,6 +50,8 @@ Every skill is built around these metrics:
 
 Install the plugin and the included MCP server connects to your SmartLink Basics CRM automatically. On first use, you'll authenticate with your SmartLink Basics account.
 
+The plugin signs in with a pre-registered OAuth client (SmartLink Basics doesn't use automatic client registration), so Claude Code opens your browser and listens for the sign-in result on `http://localhost:8765/callback`. Keep port 8765 free while you connect. If you used an older version of this plugin, clear its saved sign-in once: run `/mcp`, pick `smartlink-basics-crm`, and choose to clear or re-run authentication.
+
 ## Quick Start
 
 Once installed, try:
